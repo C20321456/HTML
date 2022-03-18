@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> 
+			playing with CSS
+		</title>
+		
+		<style>
+			body {background-color: #66DDAA; }
+			
+			h1 
+				{
+					color: #096a82;
+					border: 4px dotted blue;
+				}
+			
+			#para1
+				{
+					text-align: center;
+					color: #FF4040;
+				}
+			
+			#h2
+				{
+					text-decoration: line-through;
+				}
+			
+			p.a
+				{
+					font: italic small-caps bold 12px/30px georgian, serif;
+					font-size: 150%
+				}
+			
+			a:hover {background-color: red}
+		</style>	
+		
+		
+	
+	
+	
+	</head>
+		
+	<body>
+		
+		<h1>
+			This is the heading of this page, with little to few texts I wont fill up the border!
+		</h1>
+		
+			<p id="para1">
+				This is a page to mess around with some CSS elements and overall see what fits best
+			</p>
+			
+			<p id="para1">
+				over here we have some examples of text when 
+			</p>
+			
+			<p id="para1">
+				the text should keep getting centred
+			</p>
+			
+			<p id="para1">
+				like so!
+			</p>
+		
+		<h2 id="h2">
+			Hi, I am unimportent, please ignore me!
+		</h2>
+		
+			<p class="a">
+				this is some whacky ass fonts and colours and whatever. like woah my text really looks epic
+				and you cant tell me that I am wrong!
+			</p>
+			
+		<h2>
+			Click down below for lab 3 final task!
+		</h2>
+		
+			<p><a href = "file:///C:/Users/super/OneDrive/Desktop/Web_developmet/Lab2/Lab2.html">
+				Click here!
+			</p></a>
+			
+			<img src="arrow_up.png" width="70">
+	
+	
+	</body>
+</html>

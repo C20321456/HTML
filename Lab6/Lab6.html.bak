@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+			<title>
+				LAB 6
+			</title>
+	<link href="Style.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="banner">
+			<img src = "top_nav.jpg">	
+		</div> 
+		
+		<div class = "content_side">			
+			<img src= "My_sky.jpg">
+			<p class = "white">
+				h
+			</p>
+			<a href = "https://www.w3schools.com/">
+			<img src= "block_1.jpg">
+			</a>
+			
+			<a href = "https://www.w3schools.com/">
+			<img src= "block_3.jpg">
+			</a>
+			
+			<a href = "https://www.w3schools.com/">
+			<img src= "block_2.jpg">
+			</a>
+			
+			<a href = "https://www.w3schools.com/">
+			<img src= "block_4.jpg">
+			</a>
+		</div>
+		
+		<div class= "content">
+			<p>
+				<img src= "arrow.gif"> login/register <img src= "arrow.gif"> print this page
+			</p>
+			<br> <br> <br>
+			
+			<form action= "/action_page.php" method="post">
+			<label for "Username"> 
+				Username
+			</label>
+			
+			<input type = "text" id = "Username" name = "Username"/>
+			<br>
+			
+			<label for "Password">
+				Password
+			</label>
+			
+			<input type = "text" id = "Password" name = "Password"/>
+			<br>
+			
+			<p>
+				<u>Username help</u>
+			</p>
+			
+			<p>
+				<u>Password help</u>
+			</p>
+			
+			<p>
+				<u>registor today</u>
+			</p>
+			
+			<form action= "/action_page.php" method="post">
+			<input type="Checkbox" id= "Remeber" name ="Remeber" value="Remeber">
+			<label for "Remeber">
+				Remember me
+			</label>
+			<br> <br> <br>
+			
+			<p> <a href = "https://www.w3schools.com/">
+				<img src= "arrow.gif"> What is my remote record?
+			</p></a>
+			
+			<p> <a href = "https://www.w3schools.com/">
+				<img src= "arrow.gif"> Sky by broadband
+			</p></a>
+			
+			<p> <a href = "https://www.w3schools.com/">
+				<img src= "arrow.gif"> Sky by mobile
+			</p></a>
+			
+			<p> <a href = "https://www.w3schools.com/">
+				<img src= "arrow.gif"> Whats on TV
+			</p></a>
+			
+			<p> <a href = "https://www.w3schools.com/">
+				<img src= "arrow.gif"> Contact us
+			</p></a>
+			
+		
+			
+		</div>
+		
+		<input style="position: relative; top:-755px; left: 886px"type="text" id="search" name="search">
+		<button style="position: relative; top:-755px; left: 886px color: blue;" type="button" onclick="alert ('Searching...')"> GO </button>
+	</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> 
+			Lab4 task 2
+		</title>
+		
+		<style>
+			div.articles
+				{
+					display: inline-block;
+					width: 450px;
+					padding: 5px;
+				}
+				
+			div.articleContent
+				{
+					display: inline-block;
+				}
+		
+			h3.article
+				{
+					color: #ADD8E6;
+				}
+				
+			p.article
+				{
+					color: #ADD8E6;
+				}
+				
+			#more 
+				{
+					display: none;
+				}
+				
+			.otherHeadlines{
+		
+			}
+			
+			.otherHead{
+				
+			}
+			
+				
+			.thick
+				{
+					font-weight: 900;
+				}
+		
+		</style>
+		
+	</head>
+	
+	<body>
+		<div class="articles">
+			<div class="articleContent">
+				<img src="Pic1.png" width="150"/>
+			</div>
+			
+			<div class="articleContent">
+				<h3 class="article"> 
+					Wallac returns to munster 
+					<br>
+					squad 
+				</h3>
+				<p>
+				David Wallace is one of the nine
+				<br>
+				internationals to return
+				<br>
+				sheeeeeeeesh
+				<br>
+				<span id="dots">...</span><span id="more"> his home after a devistating blow to
+				<br>
+				his only ego as he climbs up the stairs to his house, to shame he
+				<br>
+				lowers his head. he is devistated by the loss the he has experienced in his prime youth
+				</span></p>
+				<button onclick="MyFunction()" id=myBtn">Read more</button>
+			</div>
+			<br>
+			<div class="otherHeadlines">
+				<div class="otherHead">
+				<p class="thick">
+					Other headlines:
+				</p>
+				<p class="article">
+					-Keane desperate for consistency
+					<br>
+					-Kazel camp wary of Grace rivals
+					<br>
+					-Toner takes palyer gong
+					<br><br>
+					➼ View all stories
+				</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="articles">
+			<div class="articleContent">
+				<img src="Pic2.png" width="150"/>
+			</div>
+			<div class="articleContent">
+					<h3 class="article">
+						2008 American Music 
+						<br>
+						Awards: The Winners
+					</h3>
+					<p>
+					The 2008 American Music
+					<br>
+					Awards too place in Los
+					<br>
+					Angeles at the
+					<br>
+					<span id="dots">...</span><span id="more"> his home after a devistating blow to
+					<br>
+					his only ego as he climbs up the stairs to his house, to shame he
+					<br>
+					lowers his head. ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+					</span></p>
+					<button onclick="MyFunction()" id=myBtn">Read more</button>
+			</div>
+			<br>
+			<div class="otherHeadlines">
+				<div class="otherHead">
+				<p class="thick">
+					Other headlines 
+				</p>
+				<p class="article">
+					-Orbital Reform for UK festival
+					<br>
+					-Fairport Convention for Whelans's
+					<br>
+					-Deerhunter Plan Whelans Gig
+					<br><br>
+					➼ View all stories
+				</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<br>
+		
+		<script>
+			function myFunction()
+			{
+				var dots = document.getElementById("dots");
+				var moreText = document.getElementById("more");
+				var btnText = document.getElementById("myBtn");
+
+				if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "Read more"; 
+				moreText.style.display = "none";
+				} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "Read less"; 
+				moreText.style.display = "inline";
+				}
+			}
+		</script>
+	</body>
+	
+
+	
+	
+	
+</html>

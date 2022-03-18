@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lab 5</title>
+
+		<style>
+				html
+				{
+					font-family: sans-serif;
+				}
+
+				div.banner
+				{
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 50%;
+				}
+
+				div.image
+				{
+					margin-left: auto;
+					margin-right: auto;
+					width: 50%;
+				}
+
+				div.image2
+				{
+					margin-left: auto;
+					margin-right: auto;
+					width: 50%;
+					float: right;
+				}
+
+				div.content
+				{
+					margin-left: auto;
+					margin-right: auto;
+					width: 50%;
+					float: 
+				}
+
+				span.content
+				{
+					float: right;
+					width: 815px;
+				}
+
+				p.text
+				{
+					font-size: 12px;
+				}
+
+				p.text2
+				{
+					font-size: 12px;
+					display: inline-block;
+				}
+
+				h4.blue_title
+				{
+					color: #7ba9b8;
+				}
+
+				div.content_side
+				{
+					margin-left: auto;
+					margin-right: auto;
+					width: 50%;
+					font-size: 12px;
+				}
+		</style>
+	</head>
+	
+	<body>
+		<div class="banner">
+			<img src="banner.gif">
+		</div>
+		
+		<span class="content">
+			<h3>
+				Current Articles
+			</h3>
+			
+			<div class="image2">
+					<img src="image1.gif">
+			</div>
+			
+			<h4 class="blue_title">
+				The Bizarre Adventures of Woodruff and
+				<br>
+				the Schnibble
+			</h4>
+				
+			<p class="text">
+				The Bizarre Adventures of Woodruff and the Schnibble (also
+				<br>
+				known as Woodruff and the Schnibble of Azimuth) is among
+				<br>
+				the last adventure games created by Coktel Vision, a French
+				<br>
+				game development company acquired by Sierra On-Line in
+				<br>
+				1992. Though not part of Coktel Vision's Gobliiins trilogy, The
+				<br>
+				Bizarre Adventures of Woodruff and the Schnibble has the
+				<br>
+				same graphical style as the better-known...
+			</p>
+		</span>
+		
+		
+		<span class="content">
+			<img src="image2.gif">
+			
+			<div style="display: inline-block">
+				<h4 class="blue_title">
+					Adventure game puzzles: unlocking the
+					<br>
+					secrets of puzzle design
+				</h4>
+					<p class="text2">
+						For a lot of games, you can figure out most of what you
+						<br>
+						need to know about them from simply looking at an
+						<br>
+						in-game screenshot or watching a gameplay trailer. With a
+						<br>
+						quick glance at the heads-up display and the quality of the 
+						<br>
+						graphics, you can get a good sense of what kind of 
+						<br>
+						monster killing mayhem you will be engaging in and what
+						<br>
+						kind of experience you will likely get from playing the...
+					</p>
+			</div>
+		</span>
+		
+		
+		<div class="image">
+			<img src="sidemenu.gif">
+		</div>
+		
+		
+		<div class="content_side">
+			<h3>
+				Join Our Team!
+			</h3>
+			
+			<p>
+			We need your help! We are 
+			<br>
+			now seeking talented 
+			<br> 
+			gamers to join out team as  
+			<br>
+			volunteers to be editors or
+			<br>
+			contributors. No prior
+			<br>
+			experience is required. If you
+			<br>
+			like to write about adventure
+			<br>
+			gaming for this site and see
+			<br>
+			your work read by your fellow
+			<br>
+			adventure game fans
+			<br>
+			worldwide, read our authors
+			<br>
+			instructions and contact us
+			<br>
+			for further information.
+			</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+			<title>
+				Lab test
+			</title>
+	<link href="Lab_Test_StyleSheet.css" rel="stylesheet">
+	</head>
+	
+	
+	<body>
+		<div class="banner">
+			<img src="topbanner.jpg">
+		</div>
+		
+		<div class="banner">
+			<img src="lowbanner.jpg">
+		</div>
+	
+	
+		
+		<div class="header">
+			<h1><b>
+				New US shutdown looms as talks stall
+			</h1></b>
+		</div>
+		
+		<div class="content_side">
+			<p>
+				Negotiators hoping to ht a Friday
+				deadline disagree on issues
+				incudling money for border wall.
+			</p>
+			
+			<p> 1 Hour ago | US & Canada </p>
+			
+			<p style="color:red"> ____</p>
+			
+			<p>
+				What is a shutdown?
+			</p>
+			
+			<p>
+				How the last shutdown hurt
+			</p>
+			
+			<p>
+				How tech fills border wall gaps
+			</p>
+			
+			<p>
+				Trump's wall- in seven charts
+			</p>
+		</div>
+		
+		<div class="content">
+			<img src="mainnews.jpg" width="600" height="400">
+		</div>
+		
+		<div class="rightcontent">
+			<h1>
+				Watch/Listen
+			</h1>
+			
+			<p style="font-size:25px;">
+			
+				<img src="live.jpg"> 
+				World Service Radio
+			</p>
+			
+			<p style="font-size:25px;">
+				<img src="video1.jpg"> Iran marks revolution 40th anniversary
+				<br>
+				2 Hours ago | Middle East
+			</p>
+			
+			<p style="font-size:25px;">
+				<img src="video2.jpg">
+				Life in poorest city in the US
+				<br>
+				11 Feburary 2019
+			
+			</p>
+			
+			
+		</div>
+		
+		<div class="time1">
+			<p style="color:red">
+				<img src="arrow.jpg">
+				0:53
+			</p>
+		</div>
+		
+		<div class="time2">
+			<p style="color:red">
+				<img src="arrow.jpg">
+				3:11
+			</p>
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+		<input style="position: relative; top:-620px; left: 1100px"type="text" id="search" name="search">
+		<button style="position: relative; top:-160px; left: 1100px" type="button" onclick="alert ('Searching...')"> GO </button>
+	</body>
+	
+
+</html>

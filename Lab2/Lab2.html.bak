@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="UTF-8">
+		<title> 
+			TUD SC-Infrastructure 
+		</title>
+	</head>
+	
+	<style>
+		body {background-color: #2ACAEA; }
+	
+		h1 
+			{
+				color: #096a82;
+				border: 4px dotted blue;
+			}
+			
+		a:hover {background-color: red}
+	
+	</style>
+	
+	
+	
+	<body>
+	
+		<h1><center> 
+			Welcome to my page 
+		</h1></center>
+	
+		<hr size = 1px>
+	
+			<h2><strong><p id="TOC_Anchor"> 
+				Table of contents 
+			</h2></strong></a></p>
+		
+				<p><a href="#Resume_Anchor">
+					Resume
+				</p></a>
+				<p><a href="#Pro_Anchor">
+					Professional
+				</p></a>
+				<p><a href="#Personal_Anchor">
+					Personal
+				</p></a>
+			
+		<hr size = 1px>
+			<h2><strong><p id="Resume_Anchor">
+				RESUME
+			</h2></strong></p>
+			
+				<p><b><i>
+					Education:
+				</p></b></i>
+				
+				<p>
+					junior cert and Leaving Cert
+				</p>
+				
+				<p><b><i>
+					Experience:
+				</p></b></i>
+				
+				<p>
+					Raidiology work in Saint James Hospital. Work experience with Arthur Cox law firm
+				</p>
+				
+				<p><b><i>
+					Skills:
+				</p></b></i>
+				
+				<p>
+					Computer skills such as: Python, Java, C, HTML
+				</p>
+				
+				<p><strong><a href="#TOC_Anchor">
+					Return to table of contents
+				</p></strong></a>
+		
+		<hr size = 1px>
+			<h2><strong><p id="pro_Anchor">
+				Professional
+			</h2></strong></p>
+			
+				<p><b><i>
+					Goals:
+				</p></b></i>
+				
+				<p>
+					My Future Goals in life is to become an IT manager of a bussiness or tech company
+				</p>
+				
+				<p><b><i>
+					Development:
+				</p></b></i>
+				
+				<p>
+					Currently Studying in TUD Grangorman. Course= Computer Science Infrastructure. Code= TU857
+				</p>
+				
+				<p><b><i>
+					Leadership skills:
+				</p></b></i>
+				
+				<p>
+					was part of project groups in Secondary school and in college where I was the one who decided what role each person would get within the project
+				</p>
+				
+				<p><strong><a href="#TOC_Anchor">
+					Return to table of contents
+				</p></strong></a>
+				
+		<hr size = 1px>
+			<h2><strong><p id="Personal_Anchor">
+				Personal
+			</h2></strong></p>
+			
+				<p><b><i>
+					Family:
+				</p></b></i>
+				
+				<p>
+					Mother and Father. one older brother(24), one younger sister(13)
+				</p>
+				
+				<p><b><i>
+					Pets:
+				</p></b></i>
+				
+				<p>
+					I have one pet dog, the breed is a Bishon Frise. She is a female and her name is Millie, named after her mother
+				</p>
+				
+				<p><b><i>
+					Hobbies:
+				</p></b></i>
+				
+				<p>
+					I mostly enjoy playing video games during my spare time or watch TV shows on Netflix if there is anything good
+				</p>
+				
+				<p><strong><a href="#TOC_Anchor">
+					Return to table of contents
+				</p></strong></a>
+				
+				<img src="tud.jpg" width="400">
+		
+		<hr size = 1px>
+		
+	</body>
+<html>

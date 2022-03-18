@@ -1,0 +1,36 @@
+div.banner
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+
+div.content_side
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 12px;
+}
+		
+div.MySky
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+p.white
+{
+	color: #FFFFFF;
+}
+
+div.content
+{
+	display: block;
+	margin-top: -700px;
+	margin-right: 360px;
+	float: right;
+}
+
