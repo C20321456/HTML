@@ -1,0 +1,13 @@
+<html>
+	<body>
+	
+		<?php
+			echo "Hello World";
+			
+			echo "Mykolas Kubilius";
+			
+			echo strlen("Mykolas Kubilius");
+		
+		?>
+	</body>
+</html>

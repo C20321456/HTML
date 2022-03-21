@@ -1,0 +1,12 @@
+<html>
+	<body>
+		<?php
+			$keyArray = array ("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+			echo "key=Peter, Value=" , $keyArray["Peter"];
+			echo "<br>";
+			echo "Key=Ben, Value=" , $keyArray["Ben"];
+			echo "<br>";
+			echo "Key=Joe, Value=" , $keyArray["Joe"];
+		?>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+	<body>
+		<?php
+			
+			$Value1 = $_POST['Value1'];
+			$Value2 = $_POST['Value2'];
+				
+			$Sum = $Value1 * $Value2;
+		?>
+	
+	
+	
+		<form action="Adding.php" method="Post">
+		Value:1 <input type="text" name="Value1"><br>
+		Value:2 <input type="text" name="Value2"><br>
+		<input type="Submit"/>
+		</form>
+		
+		<?php echo "The sum is " .$Sum; ?>
+		
+	</body>
+</html>
