@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+			<title>
+				Cooper Pharmacy
+			</title>
+			
+		<link href="Pharmacy_StyleSheet.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<center>
+			<div class="item" style="font-size:2vw;">
+					<img class ="itemIamge" src= "Strepsils.jpeg">
+				
+				<div>
+					Medicine for sore Throat
+				</div>
+			</div>
+			
+			<h1>
+				Name: Strepsils
+			</h1>
+			
+			<p style="font-size:2vw;">
+				Cost: €8
+			</p>
+			
+			<button id="minus">−</button>
+			<input type="number" value="0" id="input"/>
+			<button id="plus">+</button>
+			
+			<br>
+			<input type="submit" value="Submit">
+		</center>
+		
+		<script>
+			const minusButton = document.getElementById('minus');
+			const plusButton = document.getElementById('plus');
+			const inputField = document.getElementById('input');
+
+			minusButton.addEventListener('click', event => {
+			  event.preventDefault();
+			  const currentValue = Number(inputField.value) || 0;
+			  inputField.value = currentValue - 1;
+			});
+
+			plusButton.addEventListener('click', event => {
+			  event.preventDefault();
+			  const currentValue = Number(inputField.value) || 0;
+			  inputField.value = currentValue + 1;
+			});
+		</script>
+	</body>
+</html>
