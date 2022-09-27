@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="UTF-8">
+		<title> 
+			My CV 
+		</title>
+		<link href="Creative.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1><center>
+			Welcome to my CV page
+		</h1></center>
+		
+		
+		<p>
+			Open from <time>10:00</time> to <time>21:00</time>
+		</p>
+		<p>
+			CV made on <time datetime="26-09-2022 13:00"></time>
+		</p>
+		
+		<a href="https://tudublin.ie/">
+		<img src="tud.jpg" width="400">
+		</a>
+	
+		<hr size = 1px>
+			<h2>
+				About me:
+			</h2>
+			
+			<p>
+				Name: Mykolas Kubilius<br>
+				Age: 20<br>
+				Nationality: Lithuanian
+			</p>
+		<hr size = 1px>
+		
+		<hr size = 1px>
+			<h2>
+				college projects:
+			</h2>
+			
+			<ul>
+				<li>
+					C
+					<ul>
+						<li>
+							Made a program that displayed a persons pin, they could change the pin<br>
+							if they were to change the pin they could have to confrim the pin by<br>
+							putting the new pin in again, if they didnt match then it would reset to default.
+						</li>
+					</ul>
+				</li>
+				<li>
+					Java
+					<ul>
+						<li>
+							made a program game called blackjack with a GUI intereface
+						</li>
+						
+						<li>
+							made a hosptial like data base with the persons name<br>
+							date of birth and also their illness.
+						</li>
+					</ul>
+				</li>
+			</ul>
+		<hr size = 1px>
+		
+		<hr size = 1px>
+			<h2>
+				Schools:
+			</h2>
+			
+			<a href="http://www.saintjamessps.com/">Primary School</a><br>
+			<a href="https://www.syngestreet.com/">Secondary School</a><br>
+			<a href="https://www.tudublin.ie/">College</a><br>
+		<hr size = 1px>
+		
+		<hr size = 1px>
+			<h2>
+				College Grades: year2
+			</h2>
+			
+			<table style="width:100%">
+				<tr>
+					<th>semester 1</th>
+					<th>semester 2</th>
+				</tr>
+				
+				<tr>
+					<td>PASS</td>
+					<td>PASS</td>
+				</tr>
+			</table>
+		
+		<hr size = 1px>
+		
+		<img src="ordinary-man-portrait-brunette-smiling-face-134097634.jpg" width="300">
+		
+		<div class="tooltip">Hover over me
+			<span class="tooltiptext">That picture is me ;)</span>
+		</div>
+	</body>
+</html>
