@@ -22,14 +22,15 @@ const students = [
     }
 ];
 
-let femaleStudents = students.filter(({ sex }) => sex >= "f").map(({ name }) => name, ({ sex }) => sex, ({ grades }) => grades);
-
+let femaleStudents = students.filter(checkSex).forEach(graveAverage);
 console.log("Females Results: ");
 console.log(femaleStudents);
 
 
 function checkSex(student){
-    students.filter(({ sex }) => sex >= "f")
+    if (student.sex === "f") {
+        return student
+    }
 }
 
 function graveAverage(student){
