@@ -22,8 +22,9 @@ const students = [
     }
 ];
 
-let femaleStudents = students.filter(checkSex).forEach(graveAverage);
-console.log("Females Results: ");
+let femaleStudents = students.filter(checkSex);
+graveAverage(femaleStudents[0]);
+graveAverage(femaleStudents[1]);
 console.log(femaleStudents);
 
 
@@ -34,12 +35,19 @@ function checkSex(student){
 }
 
 function graveAverage(student){
-    let grade1 = student.grades[0];
-    let grade2 = student.grades[1];
-    let grade3 = student.grades[2];
-    let avrg = grade1 + grade2 + grade3 / 3;
+    let average = 0;
+    const results = [];
 
-    console.log("Name of female: ", student.name)
-    console.log("The average is: ", avrg);
-    return avrg;
+    for(let i=0; i<student.grades.length; i++){
+        average = average + student.grades[i];
+
+        if(i === (student.grades.length) -1){
+            average = average/(i+1);
+        }
+    }
+
+    student.grades[0]= average;
+
+    student.grades.length=1;
+    return student;
 }
